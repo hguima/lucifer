@@ -1,0 +1,148 @@
+
+
+/*multiple backgrounds*/
+body{
+background-color:#d3b28c;
+background-image: url("../images/bg1.png");
+background-repeat:repeat;
+height: 6075px;
+}
+
+
+#text1,#text2,#text3{
+  border: 2px solid white;
+  font-family: 'Chathura', sans-serif;
+  font-size: 36pt;
+  line-height: 23px;
+  height:150px;
+  width:380px;
+  text-indent: 20px;
+}
+#text3{
+  position:relative;
+  top: 245px;
+  left: 50%;
+  margin-left: -30px;
+}
+
+/*wrapper STARTS*/
+#wrapper{
+
+  width:800px;
+  margin: 0 auto;
+  /*if you don't set a width than
+  this doesn't do anything-you
+  have to know the width of the
+  object you are putting
+  in the middle of the page
+  and split the difference*/
+  height: 6075px;
+  position: relative;
+}
+
+#god{
+  border: 3px solid red;
+  background-image:url(../images/god.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  left: 50%;
+  margin-left: -114px;
+  position: relative;
+  z-index: 10;
+}
+#feathers{
+  border: 3px solid purple;
+  background-image:url(../images/feathers.png);
+  background-repeat: no-repeat;
+  width: 224px;
+  height: 150px;
+  position: absolute;
+  top: 941px;
+  left: 50%;
+  margin-left: 125px;
+  z-index: 19;
+}
+#s1{
+  border: 3px solid red;
+  background-image:url(../images/s1.png);
+  background-repeat: no-repeat;
+  width: 27%;
+  height: 300px;
+  position: absolute;
+  top: 401px;
+  left: 50%;
+  margin-left: 65px;
+  z-index: 20;
+}
+#c1{
+  border: 3px solid red;
+  background-image:url(../images/c1.png);
+  background-repeat: no-repeat;
+  width: 521px;
+  height: 300px;
+  position: relative;
+  top:8px;
+  left: 50%;
+  margin-left: -175px;
+  z-index: 10;
+}
+#c2{
+  border: 3px solid green;
+  background-image:url(../images/c2.png);
+  background-repeat: no-repeat;
+  width:400px;
+  height: 300px;
+  position: absolute;
+  top:208px;
+  left: 50%;
+  margin-left: -200px;
+  z-index: 1;
+}
+#army{
+  border: 3px solid black;
+  background-image:url(../images/army.png);
+  background-repeat: no-repeat;
+  width:500px;
+  height: 280px;
+  position: absolute;
+  top:948px;
+  left: 50%;
+  margin-left: -280px;
+  z-index: 2;
+}
+#c3{
+  border: 3px solid green;
+  background-image:url(../images/c3.png);
+  background-repeat: no-repeat;
+  width:700px;
+  height: 300px;
+  position: absolute;
+  top:1080px;
+  left: 50%;
+  margin-left: -355px;
+  z-index: 3;
+}
+#c4{
+  border: 3px solid green;
+  background-image:url(../images/c4.png);
+  background-repeat: no-repeat;
+  width:300px;
+  height: 174px;
+  position: absolute;
+  top:1060px;
+  left: 50%;
+  margin-left: -400px;
+  z-index: 1;
+}
+#layers{
+  background-image:url(../images/layers.png);
+  background-repeat: no-repeat;
+  width:800px;
+  height: 1379px;
+  position: absolute;
+  top:1907px;
+  left: 50%;
+  margin-left: -400px;
+  z-index: 1;
+}
