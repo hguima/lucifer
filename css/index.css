@@ -8,23 +8,62 @@ background-repeat:repeat;
 height: 6075px;
 }
 
-
-#text1,#text2,#text3{
-  border: 2px solid white;
-  font-family: 'Chathura', sans-serif;
-  font-size: 36pt;
+#title,#title1,
+#text1,#text2,#text3,#text4,#text5{
+  font-family: 'Give You Glory', cursive;
+  font-size: 20pt;
   line-height: 23px;
-  height:150px;
-  width:380px;
   text-indent: 20px;
+}
+#title{
+  position:absolute;
+  left: 50%;
+  margin-left: -440px;
+}#title1{
+  position:absolute;
+  left: 50%;
+  margin-left: -440px;
+}
+#text1{
+  position:relative;
+  left: 50%;
+  margin-left: -640px;
+  top: 33px;
+  height:150px;
+  width:680px;
+}
+#text2{
+  position:relative;
+  top: 5px;
+  left: 50%;
+  margin-left: -385px;
+  height:150px;
+  width:430px;
 }
 #text3{
   position:relative;
-  top: 245px;
+  top: 405px;
   left: 50%;
-  margin-left: -30px;
+  margin-left: 260px;
+  height:150px;
+  width:380px;
 }
-
+#text4{
+  position:relative;
+  top: 1745px;
+  left: 50%;
+  margin-left: -640px;
+  height:150px;
+  width:610px;
+}
+#text5{
+  position:relative;
+  top: 2392px;
+  left: 50%;
+  margin-left: 260px;
+  height:150px;
+  width:380px;
+}
 /*wrapper STARTS*/
 #wrapper{
 
@@ -39,9 +78,47 @@ height: 6075px;
   height: 6075px;
   position: relative;
 }
-
+#d1{
+  background-image: url(../images/drop.png);
+  background-repeat: no-repeat;
+  position:absolute;
+  top: 343px;
+  left: 50%;
+  margin-left: 480px;
+  height:350px;
+  width:310px;
+}
+#d2{
+  background-image: url(../images/d2.png);
+  background-repeat: no-repeat;
+  position:absolute;
+  top: 223px;
+  left: 50%;
+  margin-left: -250px;
+  height:100px;
+  width:310px;
+}
+#d3{
+  background-image: url(../images/d3.png);
+  background-repeat: no-repeat;
+  position:absolute;
+  top: 1482px;
+  left: 50%;
+  margin-left: -250px;
+  height:250px;
+  width:310px;
+}
+#d4{
+  background-image: url(../images/d4.png);
+  background-repeat: no-repeat;
+  position:absolute;
+  top: 3060px;
+  left: 50%;
+  margin-left: 350px;
+  height:850px;
+  width:710px;
+}
 #god{
-  border: 3px solid red;
   background-image:url(../images/god.png);
   background-repeat: no-repeat;
   width: 100%;
@@ -52,7 +129,6 @@ height: 6075px;
   z-index: 10;
 }
 #feathers{
-  border: 3px solid purple;
   background-image:url(../images/feathers.png);
   background-repeat: no-repeat;
   width: 224px;
@@ -64,7 +140,6 @@ height: 6075px;
   z-index: 19;
 }
 #s1{
-  border: 3px solid red;
   background-image:url(../images/s1.png);
   background-repeat: no-repeat;
   width: 27%;
@@ -76,7 +151,6 @@ height: 6075px;
   z-index: 20;
 }
 #c1{
-  border: 3px solid red;
   background-image:url(../images/c1.png);
   background-repeat: no-repeat;
   width: 521px;
@@ -88,7 +162,6 @@ height: 6075px;
   z-index: 10;
 }
 #c2{
-  border: 3px solid green;
   background-image:url(../images/c2.png);
   background-repeat: no-repeat;
   width:400px;
@@ -100,7 +173,6 @@ height: 6075px;
   z-index: 1;
 }
 #army{
-  border: 3px solid black;
   background-image:url(../images/army.png);
   background-repeat: no-repeat;
   width:500px;
@@ -112,7 +184,6 @@ height: 6075px;
   z-index: 2;
 }
 #c3{
-  border: 3px solid green;
   background-image:url(../images/c3.png);
   background-repeat: no-repeat;
   width:700px;
@@ -124,7 +195,6 @@ height: 6075px;
   z-index: 3;
 }
 #c4{
-  border: 3px solid green;
   background-image:url(../images/c4.png);
   background-repeat: no-repeat;
   width:300px;
@@ -142,6 +212,17 @@ height: 6075px;
   height: 1379px;
   position: absolute;
   top:1907px;
+  left: 50%;
+  margin-left: -400px;
+  z-index: 1;
+}
+#ae{
+  background-image:url(../images/ae.png);
+  background-repeat: no-repeat;
+  width:779px;
+  height: 902px;
+  position: absolute;
+  top:3200px;
   left: 50%;
   margin-left: -400px;
   z-index: 1;

@@ -15,8 +15,7 @@ $(window).scroll(function(){
     } else {
     $("#s1").css({
         "top" : fromTop * 1.1 +"px",
-        "display":"block"
-      });
+        "display":"block" });
     }
 
 
@@ -27,7 +26,7 @@ $(window).scroll(function(){
         "display":"initial",
         "background-image":"url(images/s2.png)"
       });
-    }else{
+    } else {
       $("#s1").css({
           "top" : fromTop * 1.1 +"px",
           "display":"initial",
@@ -35,16 +34,31 @@ $(window).scroll(function(){
     }
 
 
+  if(fromTop >= 2350){
+    $("#s1").css({
+      "top" : fromTop * 1.1 + "px",
+      "display":"initial",
+      "background-image":"url(images/snake.png)"
+    });
+  }
 
+  if(fromTop >= 2344){
+    $("#s1").css({
+      "top" : fromTop * 1.1 + "px",
+      "display":"initial",
+      "background-image":"url(images/snake.png)"
+    });
+  }
 
 
 //s1 ENDS
 //feathers STARTS
-    if(fromTop >= 0){
+    if(fromTop >= 941){
         $("#feathers").css({
           "display":"none"
           });
-      } else {
+      }
+      else {
       $("#feathers").css({
           "top" : fromTop * .99 +"px",
           "display":"block"
@@ -68,8 +82,45 @@ $(window).scroll(function(){
       }
 
 //feathers ENDS
+jQuery(function(){
 
+   // Fade In
+   $("#d1").fadeIn(1500);
 
+   // Fade Out
+   $("#d1").fadeOut(1500);
+
+});
+
+jQuery(function(){
+
+   // Fade In
+   $("#d2").fadeIn(1500);
+
+   // Fade Out
+   $("#d2").fadeOut(1500);
+
+});
+
+jQuery(function(){
+
+   // Fade In
+   $("#d3").fadeIn(1500);
+
+   // Fade Out
+   $("#d3").fadeOut(1500);
+
+});
+
+jQuery(function(){
+
+   // Fade In
+   $("#d4").fadeIn(2000);
+
+   // Fade Out
+   $("#d4").fadeOut(2000);
+
+});
 
 //"background-image":"url(images/s2.png)"
   //this.moveIn = function() {
